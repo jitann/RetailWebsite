@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailPortal", "RetailPortal\RetailPortal.csproj", "{32C52F7D-0FA2-413F-9FCE-15BFCF7EA73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retail.Test", "Retail.Test\Retail.Test\Retail.Test.csproj", "{ACBC4F40-438B-4A95-BF29-464B713544B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retail.Business", "Retail.Business\Retail.Business\Retail.Business.csproj", "{8F18591D-9E0F-43B1-9828-3E304706AAF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C52F7D-0FA2-413F-9FCE-15BFCF7EA73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C52F7D-0FA2-413F-9FCE-15BFCF7EA73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C52F7D-0FA2-413F-9FCE-15BFCF7EA73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C52F7D-0FA2-413F-9FCE-15BFCF7EA73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACBC4F40-438B-4A95-BF29-464B713544B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBC4F40-438B-4A95-BF29-464B713544B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBC4F40-438B-4A95-BF29-464B713544B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBC4F40-438B-4A95-BF29-464B713544B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F18591D-9E0F-43B1-9828-3E304706AAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F18591D-9E0F-43B1-9828-3E304706AAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F18591D-9E0F-43B1-9828-3E304706AAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F18591D-9E0F-43B1-9828-3E304706AAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

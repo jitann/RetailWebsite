@@ -1,0 +1,5 @@
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Business\Retail.Business\obj\Debug\Retail.Business.csprojResolveAssemblyReference.cache
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Business\Retail.Business\bin\Debug\Retail.Business.dll
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Business\Retail.Business\bin\Debug\Retail.Business.pdb
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Business\Retail.Business\obj\Debug\Retail.Business.dll
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Business\Retail.Business\obj\Debug\Retail.Business.pdb

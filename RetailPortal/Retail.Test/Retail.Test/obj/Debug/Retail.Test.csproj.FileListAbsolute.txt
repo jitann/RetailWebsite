@@ -1,0 +1,7 @@
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\bin\Debug\Retail.Test.dll
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\bin\Debug\Retail.Test.pdb
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\obj\Debug\Retail.Test.csprojResolveAssemblyReference.cache
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\obj\Debug\Retail.Test.dll
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\obj\Debug\Retail.Test.pdb
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\bin\Debug\Retail.Business.dll
+C:\work\mycode\RetailWebsite\RetailPortal\Retail.Test\Retail.Test\bin\Debug\Retail.Business.pdb
