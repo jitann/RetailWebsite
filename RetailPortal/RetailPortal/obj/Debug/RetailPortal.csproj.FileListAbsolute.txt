@@ -4,3 +4,5 @@ C:\work\mycode\RetailWebsite\RetailPortal\RetailPortal\bin\Debug\RetailPortal.pd
 C:\work\mycode\RetailWebsite\RetailPortal\RetailPortal\obj\Debug\RetailPortal.csprojResolveAssemblyReference.cache
 C:\work\mycode\RetailWebsite\RetailPortal\RetailPortal\obj\Debug\RetailPortal.exe
 C:\work\mycode\RetailWebsite\RetailPortal\RetailPortal\obj\Debug\RetailPortal.pdb
+C:\work\mycode\RetailWebsite\RetailPortal\RetailPortal\bin\Debug\Retail.Business.dll
+C:\work\mycode\RetailWebsite\RetailPortal\RetailPortal\bin\Debug\Retail.Business.pdb

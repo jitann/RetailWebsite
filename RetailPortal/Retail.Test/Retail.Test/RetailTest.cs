@@ -194,7 +194,7 @@ namespace Retail.Test
                 Items = items,
                 Customer = new Affiliate()
                 {
-                    StartDate = DateTime.Now.AddMonths(26)
+                   IsLoyal = true
                 }
             };
 
@@ -241,15 +241,43 @@ namespace Retail.Test
                 Items = items,
                 Customer = new Customer()
                 {
-                    StartDate = DateTime.Now.AddMonths(26)
+                    IsLoyal = true
                 }
             };
 
             var engine = new RuleEngine();
             var result = engine.CalculateBill(invoice);
-            Assert.AreEqual(result.TotalAmount, 232.5);
+            Assert.AreEqual(result.TotalAmount,Convert.ToDecimal(232.5));
         }
 
+        [TestMethod]
+        public void InvoiceSimpleCustomer()
+        {
+            var item = new Item()
+            {
+                Amount = 100,
+                Id = 1,
+                ItemType = ItemType.Default,
+                Name = "Choclate"
+            };
+
+      
+            var items = new System.Collections.ObjectModel.Collection<Item>();
+
+            items.Add(item);
+            var invoice = new Invoice()
+            {
+                Items = items,
+                Customer = new Customer()
+            };
+
+            var engine = new RuleEngine();
+            var result = engine.CalculateBill(invoice);
+            Assert.AreEqual(result.TotalAmount, Convert.ToDecimal(95));
+        }
+        /// <summary>
+        /// No items in the cart.
+        /// </summary>
         [TestMethod]
         public void NoItemsTest()
         {
@@ -263,5 +291,42 @@ namespace Retail.Test
             var result = engine.CalculateBill(invoice);
             Assert.AreEqual(result.TotalAmount, 0);
         }
+
+        //[TestMethod]
+        //public void InvoiceSimpleGroceriesCustomerTwoPlusYearsOldTest()
+        //{
+        //    var item = new Item()
+        //    {
+        //        Amount = 150,
+        //        Id = 1,
+        //        ItemType = ItemType.Default,
+        //        Name = "Choclate"
+        //    };
+
+        //    var item1 = new Item()
+        //    {
+        //        Amount = 100,
+        //        Id = 1,
+        //        ItemType = ItemType.Groceries,
+        //        Name = "Atta"
+        //    };
+
+        //    var items = new System.Collections.ObjectModel.Collection<Item>();
+
+        //    items.Add(item);
+        //    items.Add(item1);
+        //    var invoice = new Invoice()
+        //    {
+        //        Items = items,
+        //        Customer = new Customer()
+        //        {
+        //            StartDate = DateTime.Now.AddMonths(26)
+        //        }
+        //    };
+
+        //    var engine = new RuleEngine();
+        //    var result = engine.CalculateBill(invoice);
+        //    Assert.AreEqual(result.TotalAmount, 232.5);
+        //}
     }
 }

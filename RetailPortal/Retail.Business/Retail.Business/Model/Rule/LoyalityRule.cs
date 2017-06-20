@@ -17,9 +17,9 @@ namespace Retail.Business.Model.Rule
         /// <returns></returns>
         public override decimal CalculateDiscount(decimal amount, ICustomer customer)
         {
-            if (customer != null && customer.StartDate.AddYears(2) > DateTime.Now)
+            if (customer != null && customer.IsLoyal)
                 return amount * 5 / 100;
-            return amount;
+            return 0;
         }
 
         /// <summary>
@@ -33,6 +33,14 @@ namespace Retail.Business.Model.Rule
             get
             {
                 return RuleType.PercentageRule;
+            }
+        }
+
+        public override string Description
+        {
+            get
+            {
+                return "If the user has been a customer for over 2 years, he gets a 5% discount. ";
             }
         }
     }

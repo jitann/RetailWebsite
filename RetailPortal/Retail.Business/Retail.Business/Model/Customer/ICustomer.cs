@@ -20,14 +20,6 @@ namespace Retail.Business.Model.Customer
         string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets the start date.
-        /// </summary>
-        /// <value>
-        /// The start date.
-        /// </value>
-        DateTime StartDate { get; set; }
-
-        /// <summary>
         /// Gets or sets a value indicating whether this instance is active.
         /// </summary>
         /// <value>
@@ -40,5 +32,7 @@ namespace Retail.Business.Model.Customer
         /// </summary>
         /// <returns></returns>
         decimal CalculateBill();
+
+        bool IsLoyal { get; set; }
     }
 }

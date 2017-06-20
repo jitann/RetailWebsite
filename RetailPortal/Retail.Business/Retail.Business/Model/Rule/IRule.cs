@@ -34,5 +34,6 @@ namespace Retail.Business.Model.Rule
         /// </value>
         RuleType RuleType { get; }
 
+        string Description { get; }
     }
 }

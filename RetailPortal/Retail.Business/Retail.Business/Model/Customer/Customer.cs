@@ -17,12 +17,6 @@ namespace Retail.Business.Model.Customer
             set;
         }
 
-        public DateTime StartDate
-        {
-            get;
-            set;
-        }
-
         public bool IsActive
         {
             get;
@@ -33,5 +27,7 @@ namespace Retail.Business.Model.Customer
         {
             return 0;
         }
+
+        public bool IsLoyal { get; set; }
     }
 }

@@ -23,5 +23,13 @@ namespace Retail.Business.Model.Rule
                 return RuleType.PercentageRule;
             }
         }
+
+        public override string Description
+        {
+            get
+            {
+                return "If the user is an affiliate of the store, he gets a 10% discount ";
+            }
+        }
     }
 }
