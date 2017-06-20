@@ -31,6 +31,7 @@ namespace RetailPortal
                 };
                 var engine = new RuleEngine();
                 var result = engine.CalculateBill(invoice);
+
                 if (result != null)
                 {
                     Console.WriteLine();
