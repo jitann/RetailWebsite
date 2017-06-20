@@ -18,10 +18,13 @@ Write a C# program with test cases such that given a bill, it finds the net paya
 > leverage today's best coding practices 
 
 #Assumption:
+
 User can either be a Employee or an Affiliate and can not be both
+
 Rules are executed in the order mentioned above
 
 #Implementation:
+
 A console application is built which can simulate the billing process. An invoice will consists of different items and 
 each item can be categorized and an amount can be set to that.
 
