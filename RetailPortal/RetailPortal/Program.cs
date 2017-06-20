@@ -49,11 +49,14 @@ namespace RetailPortal
         {
             Console.WriteLine("Enter Items  as Name space Amount , if its grocery space 1 else 0");
             Console.WriteLine("Example");
+            Console.WriteLine();
+            Console.WriteLine("Name  Amount Type( 0 for default/1 for grocery)");
             Console.WriteLine("Chocolate 100 0");
             Console.WriteLine("Rice 200 1");
             Console.WriteLine("Daal 150 1");
             Console.WriteLine("0");
-            Console.WriteLine("when you are done enter 0");
+            Console.WriteLine();
+            Console.WriteLine("when you are done enter 0 to calculate the bill");
             var stuffs = new Collection<Item>();
             while (true)
             {
